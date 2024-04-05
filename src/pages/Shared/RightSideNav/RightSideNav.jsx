@@ -8,7 +8,7 @@ import {
 import qZone1 from '../../../assets/qZone1.png'
 import qZone2 from '../../../assets/qZone2.png'
 import qZone3 from '../../../assets/qZone3.png'
-import bgImg from '../../../assets/bg1.png'
+// import bgImg from '../../../assets/bg1.png'
 
 const RightSideNav = () => {
   return (
@@ -45,9 +45,7 @@ const RightSideNav = () => {
         <img src={qZone2} alt="" />
         <img src={qZone3} alt="" />
       </div>
-      <div>
-         <img src={bgImg} alt="" />
-      </div>
+      
     </div>
   );
 };
